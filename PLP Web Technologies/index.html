@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML + JavaScript</title>
+  <style>
+    #dynamic-text {
+      font-size: 20px;
+      color: black;
+    }
+    #dynamic-box {
+      width: 100px;
+      height: 100px;
+      background-color: lightgray;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="dynamic-text">Original Text Message</h1>
+  <div id="dynamic-box"></div>
+  <button onclick="changeContent()">Change Text & Style</button>
+  <button onclick="toggleElement()">Add/Remove Element</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
